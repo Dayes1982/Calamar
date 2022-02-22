@@ -1,0 +1,55 @@
+{% block head %}
+    {% block script %}{% endblock %} 
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/estilogc.css') }}">
+    <script type=text/javascript src="{{url_for('static', filename='js/jquery-3.2.1.js') }}"></script>
+    <title>Estadísticas RRHH-OPI</title>
+{% endblock %}
+{% block title %}
+<body style="margin-top:0;margin-left:0;margin-right:0;margin-bottom:0" marginwidth="0" marginheight="0">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#01603E">
+        <tbody>
+            <tr>
+                <td width="15%" align="center"><img src="{{ url_for('static', filename='images/cabeceranueva.gif') }}" border="0"></td>
+                <td class="tituloCabecera2" align="center" width="85%">   
+                    <span>Servicio de Recursos Humanos</span>
+                </td>	
+              </tr>
+              <tr>
+                <td colspan="3">
+                      <table width="100%" border="0" cellspacing="0" cellpadding="0" height="30" bgcolor="#e5efeb">
+                        <tbody>
+                            <tr>
+                                <td width="15%" bgcolor="#75A594" align="center"><img src="{{ url_for('static', filename='images/textogc.gif') }}"></td>
+                                <td class="celdaGris" align="center" colspan="2" width="85%">
+                                    <span>OPI</span>
+                                </td>
+                                {% if current_user.is_anonymous %}
+                
+                                {% else %}
+                        
+                                    <td width="15%" class="celdaGris" align="center">
+                                        <button type="button" name="aceptar"><a href="{{ url_for('logout') }}">Salir</a></button>
+                                    </td>
+                                {% endif %}
+                            </tr>
+                          </tbody>
+                    </table>
+                </td>	
+              </tr>
+        </tbody>
+    </table>
+</body>
+{% endblock %}
+{% block content %}
+{% endblock %}
+{% block pie %}
+<table width="100%" border="0" cellspacing="0" cellpadding="0" height="30" bgcolor="#e5efeb">
+    <tbody>
+        <tr>
+            <td class="celdaGris" align="right">
+                <span>Servicio de RRHH. Oficina Periférica de Informática (OPI).</span>
+            </td>
+        </tr>
+    </tbody>
+</table>
+ {% endblock %}

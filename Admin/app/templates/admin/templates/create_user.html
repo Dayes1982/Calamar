@@ -1,0 +1,91 @@
+{% extends 'admin/master.html' %}
+{% block body %}
+{% for error in form.nombre.errors %}
+    <div class="alert alert-error">  
+        <a href="javascript:void(0)" class="close" data-dismiss="alert">x</a>
+            {{ error }}
+    </div>
+{% endfor %}
+{% for error in form.password.errors %}
+    <div class="alert alert-error">  
+        <a href="javascript:void(0)" class="close" data-dismiss="alert">x</a>
+            {{ error }}
+    </div>
+{% endfor %}
+
+<ul class="nav nav-tabs">
+    <li>
+        <a href="/admin/usuarios/">Lista</a>
+    </li>
+    <li class="active">
+        <a href="javascript:void(0)">Crear</a>
+    </li>
+</ul>
+<form action="" method="POST" class="admin-form form-horizontal" enctype="multipart/form-data">
+    {{ form.hidden_tag() }}
+    <fieldset>
+        <div class="control-group">
+            <div class="control-label">
+                <label for="nombre">{{ form.nombre.label }}
+                </label>
+            </div>
+            <div class="controls">
+                <div>
+                    {{ form.nombre(size=25) }}
+                </div>
+            </div>
+        </div>
+        <div class="control-group">
+            <div class="control-label">
+                <label for="nombre">{{ form.password.label }}
+                </label>
+            </div>
+            <div class="controls">
+                <div>
+                    {{ form.password(size=50) }}
+                </div>
+            </div>
+        </div>
+        <div class="control-group">
+            <div class="control-label">
+                <label for="nombre">{{ form.administrador.label }}
+                </label>
+            </div>
+            <div class="controls">
+                <div>
+                    {{ form.administrador }}
+                </div>
+            </div>
+        </div>
+        <div class="control-group">
+            <div class="control-label">
+                <label for="nombre">{{ form.accesoSoftware.label }}
+                </label>
+            </div>
+            <div class="controls">
+                <div>
+                    {{ form.accesoSoftware }}
+                </div>
+            </div>
+        </div>
+        <div class="control-group">
+            <div class="control-label">
+                <label for="nombre">{{ form.accesoMaterial.label }}
+                </label>
+            </div>
+            <div class="controls">
+                <div>
+                    {{ form.accesoMaterial }}
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="control-group">
+            <div class="controls">
+                <input type="submit" class="btn btn-primary" value="Guardar">
+                <a href="/admin/usuarios/" class="btn btn-danger">Cancelar</a>
+            </div>
+        </div>
+    </fieldset>
+</form>
+{% endblock %}

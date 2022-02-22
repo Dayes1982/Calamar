@@ -1,0 +1,51 @@
+{% extends 'admin/master.html' %}
+{% block body %}
+<ul class="nav nav-tabs">
+    <li>
+        <a href="/admin/permisos/">Lista</a>
+    </li>
+    <li class="active">
+        <a href="javascript:void(0)">Crear</a>
+    </li>
+</ul>
+<form action="" method="POST" class="admin-form form-horizontal" enctype="multipart/form-data">
+    {{ form.hidden_tag() }}
+    {% for error in form.nombreUser.errors %}
+        <p style="color:red;">{{ error }}</p>  
+    {% endfor %}
+    {% for error in form.nomCategoria.errors %}
+        <p style="color:red;">{{ error }}</p> 
+    {% endfor %}
+    <fieldset>
+        <div class="control-group">
+            <div class="control-label">
+                <label for="nombre">{{ form.nombreUser.label }}
+                </label>
+            </div>
+            <div class="controls">
+                <div>
+                    {{ form.nombreUser }}
+                </div>
+            </div>
+        </div>
+        <div class="control-group">
+            <div class="control-label">
+                <label for="nombre">{{ form.nomCategoria.label }}
+                </label>
+            </div>
+            <div class="controls">
+                <div>
+                    {{ form.nomCategoria }}
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="control-group">
+            <div class="controls">
+                <input type="submit" class="btn btn-primary" value="Salvar">
+                <a href="/admin/permisos/" class="btn btn-danger">Cancelar</a>
+            </div>
+        </div>        
+    </fieldset>
+</form>
+{% endblock %}

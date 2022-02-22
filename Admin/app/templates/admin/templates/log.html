@@ -1,0 +1,9 @@
+{% extends 'admin/master.html' %}
+{% block body %}
+{{ super() }}
+    {% if current_user.administrador == True %}
+        {% for l in log %}
+        <li class="collection-item">{{ l }}</li>
+        {% endfor %}
+    {% endif %}
+{% endblock %}
