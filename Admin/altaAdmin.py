@@ -1,9 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-from app.models import Usuarios, Anio, Mes
+from app.models import Usuarios, Mes
 from app import db
 import argparse
-import datetime
 
 #Procesar argumentos de entrada
 parser = argparse.ArgumentParser(description='%(prog)s es para dar de alta un nuevo usuario administrador.')
@@ -23,7 +22,7 @@ if args.p:
 	password = args.p
 
 #Inicio del programa
-u = Usuarios(nombre=usuario, administrador=True, accesoSoftware=True, accesoMaterial=True, cambioPass=False)
+u = Usuarios(nombre=usuario, administrador=True, cambioPass=False)
 u.set_password(password)
 db.session.add(u)
 

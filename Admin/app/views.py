@@ -5,22 +5,19 @@ from app import app, db, admin
 from .forms import LoginForm
 from flask_login import current_user, login_user, logout_user, login_required
 from functools import wraps
-from app.models import Usuarios, Software, Material, Archivo, Categoria, Subcategoria, Mes, Permisos
+from app.models import Usuarios, Archivo, Categoria, Subcategoria, Mes, Permisos
 from sqlalchemy import asc, desc
 from werkzeug.urls import url_parse
-from app.forms import RegistrationForm, SoftwareForm, ArchivosForm, SubcategoriaForm, PermisosForm, CategoriaForm
+from app.forms import RegistrationForm, ArchivosForm, SubcategoriaForm, PermisosForm, CategoriaForm
 from flask_admin.contrib.sqla import ModelView
 from werkzeug.utils import secure_filename
 from flask_admin.menu import MenuLink
 from flask_admin import BaseView, expose
 
-
 # Manejo de archivos
 path = os.path.join(os.path.dirname(__file__), 'static/files')
-SOFT_DIR = os.path.join(os.path.dirname(__file__), 'static/software')
 basedir = os.path.abspath(os.path.dirname(__file__))
 padredir = os.path.abspath(os.path.join(basedir, os.pardir))
-#SQLALCHEMY_DATABASE_URI = 'sqlite:///' + os.path.join(padredir, 'RRHH.db')
 DATA_DIR = os.path.join(os.path.dirname(padredir), 'datos')
 
 ########## Personalización de la vista de administrador #################
@@ -39,7 +36,7 @@ class MyModelViewUsuarios(ModelView):
         if form.validate_on_submit():
             u = Usuarios.query.filter_by(nombre=form.nombre.data).first()
             if u is None:
-                user = Usuarios(nombre=form.nombre.data, administrador=form.administrador.data, accesoSoftware=form.accesoSoftware.data, accesoMaterial=form.accesoMaterial.data, cambioPass=True)
+                user = Usuarios(nombre=form.nombre.data, administrador=form.administrador.data, cambioPass=True)
                 user.set_password(form.password.data)
                 db.session.add(user)
                 db.session.commit()
@@ -187,64 +184,13 @@ class LogView(BaseView):
             s.append("No se puede leer el log.")  
         return self.render('admin/templates/log.html', log=s)
 
-
-
-class MyModelViewMaterial(ModelView):
-    can_export = True
-    can_create = True
-    column_searchable_list = ['tip_Usuario','numero_Serie']
-    def is_accessible(self):
-        return current_user.administrador
-
-class MyModelViewSoftware(ModelView):
-    can_edit = False
-    column_searchable_list = ['nombre']
-    @expose('/new/', methods=('GET', 'POST'))
-    def create_view(self):
-        form = SoftwareForm()
-        if form.validate_on_submit():
-            soft = Software(nombre=form.nombre.data, descripcion=form.descripcion.data)
-            file = request.files['programa']
-            soft.programa = secure_filename(file.filename)
-            programa = Software.query.filter_by(programa=soft.programa).first()
-            if programa is not None:
-                return self.render('admin/templates/create_software.html',form=form, mensaje="Ya existe un programa con el mismo archivo.")
-            db.session.add(soft)
-            db.session.commit()
-            os.makedirs(SOFT_DIR, exist_ok=True)
-            file_path = os.path.join(SOFT_DIR, soft.programa)
-            file.save(file_path)
-            form.nombre.data = ""
-            form.descripcion.data = ""
-            return self.render('admin/templates/create_software.html',form=form, mensaje="Software dado de alta correctamente.")
-        return self.render('admin/templates/create_software.html',form=form)
-    
-    def delete_model(self, model):
-        try:
-            self.on_model_delete(model)
-            os.remove(os.path.join(SOFT_DIR, model.programa))
-            self.session.flush()
-            self.session.delete(model)
-            self.session.commit()
-        except Exception as ex:
-            if not self.handle_view_exception(ex):
-                flash(gettext('Failed to delete record. %(error)s', error=str(ex)), 'error')
-            self.session.rollback()
-            return False
-        else:
-            self.after_model_delete(model)
-        return True
-
+admin.add_view(CategoriaView(Categoria, db.session))
+admin.add_view(SubcategoriaView(Subcategoria, db.session))
+admin.add_view(ArchivosView(Archivo, db.session))
 admin.add_view(MyModelViewUsuarios(Usuarios, db.session))
 admin.add_view(PermisosView(Permisos, db.session))
-#admin.add_view(AnioView(Anio, db.session , category="Calamar"))
-admin.add_view(CategoriaView(Categoria, db.session, category="Calamar"))
-admin.add_view(SubcategoriaView(Subcategoria, db.session, category="Calamar"))
-admin.add_view(ArchivosView(Archivo, db.session, category="Calamar"))
-admin.add_view(MyModelViewSoftware(Software, db.session))
-admin.add_view(MyModelViewMaterial(Material, db.session))
 admin.add_view(LogView(name='Log', endpoint='log'))
-admin.add_link(MenuLink(name='Salir Administración', url='/logout'))
+admin.add_link(MenuLink(name='Salir', url='/logout'))
 
 
 ######## VISTAS ##############

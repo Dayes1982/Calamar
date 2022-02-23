@@ -2,10 +2,9 @@
 from xmlrpc.client import Boolean
 from flask_wtf import FlaskForm
 from wtforms import StringField, PasswordField, SubmitField, SelectField, BooleanField
-from wtforms.validators import ValidationError, DataRequired, Email, EqualTo
-from app.models import Categoria, Software, Usuarios, Permisos
-from flask_wtf.file import FileField, FileAllowed, FileRequired
-from werkzeug.utils import secure_filename
+from wtforms.validators import ValidationError, DataRequired
+from app.models import Categoria, Usuarios, Permisos
+from flask_wtf.file import FileField, FileRequired
 
 class LoginForm(FlaskForm):
     nombre = StringField('TIP', validators=[DataRequired(message="Es necesario un nombre de usuario.")])
@@ -25,8 +24,6 @@ class RegistrationForm(FlaskForm):
     password = PasswordField('Password', validators=[DataRequired(message="Es necesario un password.")])
     cambioPass = BooleanField('Cambio de Contraseña')
     administrador = BooleanField('Administrador')
-    accesoSoftware = BooleanField('Software')
-    accesoMaterial = BooleanField('Material')
     submit = SubmitField('Registrarse')
 
     def validate_nombre(self, nombre):
@@ -43,17 +40,7 @@ class RegistrationForm(FlaskForm):
         if not any(char.islower() for char in password.data):
             raise ValidationError('La contraseña debe contener una minúscula.')
         
-class SoftwareForm(FlaskForm):
-    nombre = StringField('Nombre', validators=[DataRequired(message="Es necesario que le des una nombre.")])
-    descripcion = StringField('Descripción', validators=[DataRequired(message="Es necesario que introduzcas una descripción.")])
-    programa = FileField('Programa', validators=[FileRequired(message="Es necesario que selecciones un archivo.")])
-    submit = SubmitField('Salvar')
-
 class ArchivosForm(FlaskForm):
-    # categoria = SelectField('Categoria', validators=[DataRequired(message="Es necesario seleccionar una categoria.")])
-    # subcategoria = SelectField('Subcategoria', validate_choice=False)
-    # mes = SelectField('Mes', coerce=int)
-    # anio = SelectField('Año', coerce=int)
     nombre = FileField('Archivo', validators=[FileRequired(message="Es necesario que selecciones un archivo.")])
     submit = SubmitField('Salvar')
 

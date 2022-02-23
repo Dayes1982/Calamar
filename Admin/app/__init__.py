@@ -31,11 +31,9 @@ dictConfig({
 })
 
 app = Flask(__name__)
-
 app.config.from_object(Config)
-
+app.config['BABEL_DEFAULT_LOCALE'] = 'es'
 babel = Babel(app)
-
 
 db = SQLAlchemy(app)
 migrate = Migrate(app, db)
