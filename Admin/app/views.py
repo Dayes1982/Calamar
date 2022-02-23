@@ -36,7 +36,7 @@ class MyModelViewUsuarios(ModelView):
         if form.validate_on_submit():
             u = Usuarios.query.filter_by(nombre=form.nombre.data).first()
             if u is None:
-                user = Usuarios(nombre=form.nombre.data, administrador=form.administrador.data, cambioPass=True)
+                user = Usuarios(nombre=form.nombre.data, administrador=form.administrador.data, cambioPass=form.cambioPass.data)
                 user.set_password(form.password.data)
                 db.session.add(user)
                 db.session.commit()

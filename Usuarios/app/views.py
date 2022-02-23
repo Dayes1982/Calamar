@@ -6,7 +6,7 @@ from app import app, db
 from .forms import LoginForm
 from flask_login import current_user, login_user, logout_user, login_required
 from functools import wraps
-from app.models import Usuarios, Software, Material, Archivo, Subcategoria, Permisos
+from app.models import Usuarios, Archivo, Subcategoria, Permisos
 from sqlalchemy import asc, desc
 from werkzeug.urls import url_parse
 from app.forms import CambioPassForm, DescargaArchivosForm
@@ -14,7 +14,6 @@ from app.forms import CambioPassForm, DescargaArchivosForm
 
 # Manejo de archivos
 path = os.path.join(os.path.dirname(__file__), 'static/files')
-SOFT_DIR = os.path.join(os.path.dirname(__file__), 'static/software')
 basedir = os.path.abspath(os.path.dirname(__file__))
 padredir = os.path.abspath(os.path.join(basedir, os.pardir))
 DATA_DIR = os.path.join(os.path.dirname(padredir), 'datos')
@@ -70,15 +69,6 @@ def logout():
 @app.route('/menu', methods=['POST', 'GET'])
 @login_required
 def menu():
-    if current_user.accesoMaterial == True:
-        material = Material.query.filter_by(tip_Usuario=current_user.nombre).all()
-    else:
-        material = ""
-    if current_user.accesoSoftware == True:
-        software = Software.query.order_by(Software.nombre).all()
-    else:
-        software=""
-
     permisoCat = Permisos.query.filter_by(Usuario=current_user.nombre).all()
     form = DescargaArchivosForm()
     cate = [(g.Categoria) for g in Permisos.query.filter_by(Usuario=current_user.nombre).order_by(Permisos.Categoria.asc())]
@@ -88,7 +78,7 @@ def menu():
         if archivo is None:
             app.logger.error('El usuario %s no ha podido descargar %s de %s del año %s', current_user.nombre,form.categoria.data,form.subcategoria.data,form.anio.data)
             mensaje="El archivo no existe"
-            return render_template("menu.html", title='Home Page', material=material, software=software,permisoCat=permisoCat, form=form, mensaje=mensaje)
+            return render_template("menu.html", title='Home Page', permisoCat=permisoCat, form=form, mensaje=mensaje)
         else:
             app.logger.info('El usuario %s descarga %s de %s del año %s', current_user.nombre,form.categoria.data,form.subcategoria.data,form.anio.data)
             file_path = os.path.join(DATA_DIR, archivo.nombre)
@@ -103,7 +93,7 @@ def menu():
         sel = list(set([(m.mes) for m in Archivo.query.filter_by(categoria=form.categoria.choices[0], subcategoria=form.subcategoria.choices[0], anio=form.anio.choices[0]).order_by(Archivo.mes.asc())]))
         sel.sort()
         form.mes.choices = sel
-    return render_template("menu.html", title='Home Page', material=material, software=software,permisoCat=permisoCat, form=form)
+    return render_template("menu.html", title='Home Page',permisoCat=permisoCat, form=form)
 
 
 @app.route('/updateSubcategoria', methods=['POST'])
