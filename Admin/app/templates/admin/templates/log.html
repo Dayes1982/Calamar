@@ -3,6 +3,7 @@
 {{ super() }}
     {% if current_user.administrador == True %}
         <a href="/admin/log/descarga" class="btn btn-primary">Descargar</a>
+        <a href="/admin/log/descarga2" class="btn btn-primary">Descargar Log User</a>
         <a href="/admin/log/delete" class="btn btn-danger">Eliminar</a>
         {% for l in log %}
         <li class="collection-item">{{ l }}</li>

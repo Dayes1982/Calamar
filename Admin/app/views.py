@@ -21,6 +21,7 @@ basedir = os.path.abspath(os.path.dirname(__file__))
 padredir = os.path.abspath(os.path.join(basedir, os.pardir))
 DATA_DIR = os.path.join(os.path.dirname(padredir), 'datos')
 LOG_DIR = os.path.join(os.path.dirname(padredir), 'Admin')
+LOG_DIR2 = os.path.join(os.path.dirname(padredir), 'Usuarios')
 
 ########## Personalización de la vista de administrador #################
 class MyModelViewUsuarios(ModelView):
@@ -189,6 +190,11 @@ class LogView(BaseView):
     def descarga(self):
         app.logger.info('%s descarga el log.', current_user.nombre)
         file_path = os.path.join(LOG_DIR, 'OPI.log')
+        return send_file(file_path)
+    @expose('/descarga2')
+    def descarga(self):
+        app.logger.info('%s descarga el log de user.', current_user.nombre)
+        file_path = os.path.join(LOG_DIR2, 'OPI.log')
         return send_file(file_path)
     @expose('/delete')
     def delete(self):
