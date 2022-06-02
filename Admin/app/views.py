@@ -192,7 +192,7 @@ class LogView(BaseView):
         file_path = os.path.join(LOG_DIR, 'OPI.log')
         return send_file(file_path)
     @expose('/descarga2')
-    def descarga(self):
+    def descarga2(self):
         app.logger.info('%s descarga el log de user.', current_user.nombre)
         file_path = os.path.join(LOG_DIR2, 'OPI.log')
         return send_file(file_path)
