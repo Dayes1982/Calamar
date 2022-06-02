@@ -108,6 +108,8 @@ def updateselectanio():
     sub = request.form.get('subcategoria')   
     choices = list(set([(a.anio) for a in Archivo.query.filter_by(categoria=cat, subcategoria=sub).order_by(Archivo.anio.desc())]))
     choices.sort(reverse=True)
+    app.logger.error('La consulta por categoria %s y subcategoria %s es: %s', cat,sub,choices)
+            
     return jsonify(choices)
 
 @app.route('/updateMes', methods=['POST'])

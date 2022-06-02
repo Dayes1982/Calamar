@@ -1,0 +1,415 @@
+INFO [2022-03-16 14:28:01,831] david ha eliminado el log.
+INFO [2022-03-16 14:28:03,863] david descarga el log.
+INFO [2022-03-16 14:28:49,543] Iniciado el sistema
+INFO [2022-03-30 07:53:30,578] Iniciado el sistema
+INFO [2022-03-30 07:53:30,794]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO [2022-03-30 07:53:30,795]  * Restarting with stat
+INFO [2022-03-30 07:53:31,062] Iniciado el sistema
+INFO [2022-03-30 07:56:24,086] david da permiso a david a la Categoria ACTIVO
+INFO [2022-05-05 07:59:26,543] Iniciado el sistema
+INFO [2022-05-05 07:59:40,594] Iniciado el sistema
+INFO [2022-05-05 08:00:02,012] Iniciado el sistema
+INFO [2022-05-05 08:00:16,707] Iniciado el sistema
+INFO [2022-05-05 08:00:50,551] Iniciado el sistema
+INFO [2022-05-05 08:00:50,588]  * Running on http://127.0.0.1:5001/ (Press CTRL+C to quit)
+INFO [2022-05-05 08:00:50,589]  * Restarting with stat
+INFO [2022-05-05 08:00:50,842] Iniciado el sistema
+INFO [2022-05-05 08:01:11,584] Ha accedido david
+INFO [2022-05-05 08:03:51,384] Iniciado el sistema
+INFO [2022-05-05 08:03:51,429]  * Running on http://127.0.0.1:6000/ (Press CTRL+C to quit)
+INFO [2022-05-05 08:03:51,429]  * Restarting with stat
+INFO [2022-05-05 08:03:51,691] Iniciado el sistema
+INFO [2022-05-05 08:04:23,686] Iniciado el sistema
+INFO [2022-05-05 08:04:23,719]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO [2022-05-05 08:04:23,719]  * Restarting with stat
+INFO [2022-05-05 08:04:23,972] Iniciado el sistema
+INFO [2022-05-05 08:15:39,480] Iniciado el sistema
+INFO [2022-05-05 08:15:39,519]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO [2022-05-05 08:15:39,520]  * Restarting with stat
+INFO [2022-05-05 08:15:39,780] Iniciado el sistema
+INFO [2022-05-05 08:15:51,160] david da permiso a david a la Categoria Activo
+INFO [2022-05-05 08:15:53,356] david da permiso a david a la Categoria Catalogo
+INFO [2022-05-05 08:15:55,438] david da permiso a david a la Categoria Especialidades
+INFO [2022-05-05 08:15:57,473] david da permiso a david a la Categoria Reserva
+INFO [2022-05-05 08:16:01,216] david cierra sesion
+INFO [2022-05-05 08:25:36,656] Iniciado el sistema
+INFO [2022-05-05 08:25:36,698]  * Running on http://127.0.0.1:5001/ (Press CTRL+C to quit)
+INFO [2022-05-05 08:25:46,779] 127.0.0.1 - - [05/May/2022 08:25:46] "[32mGET / HTTP/1.1[0m" 302 -
+INFO [2022-05-05 08:25:46,822] 127.0.0.1 - - [05/May/2022 08:25:46] "GET /admin/ HTTP/1.1" 200 -
+INFO [2022-05-05 08:25:46,879] 127.0.0.1 - - [05/May/2022 08:25:46] "GET /admin/static/vendor/jquery.min.js?v=3.3.1 HTTP/1.1" 200 -
+INFO [2022-05-05 08:25:46,885] 127.0.0.1 - - [05/May/2022 08:25:46] "GET /admin/static/bootstrap/bootstrap2/swatch/default/bootstrap.min.css?v=2.3.2 HTTP/1.1" 200 -
+INFO [2022-05-05 08:25:46,885] 127.0.0.1 - - [05/May/2022 08:25:46] "GET /admin/static/bootstrap/bootstrap2/css/bootstrap-responsive.css?v=2.3.2 HTTP/1.1" 200 -
+INFO [2022-05-05 08:25:46,886] 127.0.0.1 - - [05/May/2022 08:25:46] "GET /admin/static/admin/css/bootstrap2/admin.css?v=1.1.1 HTTP/1.1" 200 -
+INFO [2022-05-05 08:25:46,886] 127.0.0.1 - - [05/May/2022 08:25:46] "GET /admin/static/vendor/moment.min.js?v=2.22.2 HTTP/1.1" 200 -
+INFO [2022-05-05 08:25:46,886] 127.0.0.1 - - [05/May/2022 08:25:46] "GET /admin/static/bootstrap/bootstrap2/js/bootstrap.min.js?v=2.3.2 HTTP/1.1" 200 -
+INFO [2022-05-05 08:25:46,891] 127.0.0.1 - - [05/May/2022 08:25:46] "GET /admin/static/vendor/select2/select2.min.js?v=3.5.2 HTTP/1.1" 200 -
+INFO [2022-05-05 08:25:46,983] 127.0.0.1 - - [05/May/2022 08:25:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO [2022-05-05 08:25:48,503] 127.0.0.1 - - [05/May/2022 08:25:48] "GET /admin/archivo/ HTTP/1.1" 200 -
+INFO [2022-05-05 08:25:48,529] 127.0.0.1 - - [05/May/2022 08:25:48] "GET /admin/static/bootstrap/bootstrap2/css/bootstrap-responsive.css?v=2.3.2 HTTP/1.1" 200 -
+INFO [2022-05-05 08:25:48,530] 127.0.0.1 - - [05/May/2022 08:25:48] "GET /admin/static/bootstrap/bootstrap2/swatch/default/bootstrap.min.css?v=2.3.2 HTTP/1.1" 200 -
+INFO [2022-05-05 08:25:48,533] 127.0.0.1 - - [05/May/2022 08:25:48] "GET /admin/static/admin/css/bootstrap2/admin.css?v=1.1.1 HTTP/1.1" 200 -
+INFO [2022-05-05 08:25:48,533] 127.0.0.1 - - [05/May/2022 08:25:48] "GET /admin/static/vendor/select2/select2.css?v=3.5.2 HTTP/1.1" 200 -
+INFO [2022-05-05 08:25:48,535] 127.0.0.1 - - [05/May/2022 08:25:48] "GET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker-bs2.css?v=1.3.22 HTTP/1.1" 200 -
+INFO [2022-05-05 08:25:48,537] 127.0.0.1 - - [05/May/2022 08:25:48] "GET /admin/static/vendor/jquery.min.js?v=3.3.1 HTTP/1.1" 200 -
+INFO [2022-05-05 08:25:48,537] 127.0.0.1 - - [05/May/2022 08:25:48] "GET /admin/static/bootstrap/bootstrap2/js/bootstrap.min.js?v=2.3.2 HTTP/1.1" 200 -
+INFO [2022-05-05 08:25:48,537] 127.0.0.1 - - [05/May/2022 08:25:48] "GET /admin/static/vendor/moment.min.js?v=2.22.2 HTTP/1.1" 200 -
+INFO [2022-05-05 08:25:48,539] 127.0.0.1 - - [05/May/2022 08:25:48] "GET /admin/static/vendor/select2/select2.min.js?v=3.5.2 HTTP/1.1" 200 -
+INFO [2022-05-05 08:25:48,540] 127.0.0.1 - - [05/May/2022 08:25:48] "GET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker.js?v=1.3.22 HTTP/1.1" 200 -
+INFO [2022-05-05 08:25:48,543] 127.0.0.1 - - [05/May/2022 08:25:48] "GET /admin/static/admin/js/form.js?v=1.0.1 HTTP/1.1" 200 -
+INFO [2022-05-05 08:25:48,545] 127.0.0.1 - - [05/May/2022 08:25:48] "GET /admin/static/admin/js/actions.js?v=1.0.0 HTTP/1.1" 200 -
+INFO [2022-05-05 08:25:48,546] 127.0.0.1 - - [05/May/2022 08:25:48] "GET /admin/static/admin/js/filters.js?v=1.0.0 HTTP/1.1" 200 -
+INFO [2022-05-05 08:25:48,549] 127.0.0.1 - - [05/May/2022 08:25:48] "GET /admin/static/bootstrap/bootstrap2/swatch/img/glyphicons-halflings.png HTTP/1.1" 200 -
+INFO [2022-05-05 08:30:55,752] 127.0.0.1 - - [05/May/2022 08:30:55] "GET /admin/archivo/new/?url=%2Fadmin%2Farchivo%2F HTTP/1.1" 200 -
+INFO [2022-05-05 08:30:55,779] 127.0.0.1 - - [05/May/2022 08:30:55] "[36mGET /admin/static/bootstrap/bootstrap2/swatch/default/bootstrap.min.css?v=2.3.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-05 08:30:55,783] 127.0.0.1 - - [05/May/2022 08:30:55] "[36mGET /admin/static/bootstrap/bootstrap2/css/bootstrap-responsive.css?v=2.3.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-05 08:30:55,784] 127.0.0.1 - - [05/May/2022 08:30:55] "[36mGET /admin/static/admin/css/bootstrap2/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+INFO [2022-05-05 08:30:55,785] 127.0.0.1 - - [05/May/2022 08:30:55] "[36mGET /admin/static/vendor/jquery.min.js?v=3.3.1 HTTP/1.1[0m" 304 -
+INFO [2022-05-05 08:30:55,788] 127.0.0.1 - - [05/May/2022 08:30:55] "[36mGET /admin/static/vendor/moment.min.js?v=2.22.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-05 08:30:55,790] 127.0.0.1 - - [05/May/2022 08:30:55] "[36mGET /admin/static/bootstrap/bootstrap2/js/bootstrap.min.js?v=2.3.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-05 08:30:55,791] 127.0.0.1 - - [05/May/2022 08:30:55] "[36mGET /admin/static/vendor/select2/select2.min.js?v=3.5.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-05 08:31:08,732] 127.0.0.1 - - [05/May/2022 08:31:08] "POST /admin/archivo/new/?url=%2Fadmin%2Farchivo%2F HTTP/1.1" 200 -
+INFO [2022-05-05 08:31:08,762] 127.0.0.1 - - [05/May/2022 08:31:08] "[36mGET /admin/static/bootstrap/bootstrap2/swatch/default/bootstrap.min.css?v=2.3.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-05 08:31:08,764] 127.0.0.1 - - [05/May/2022 08:31:08] "[36mGET /admin/static/bootstrap/bootstrap2/css/bootstrap-responsive.css?v=2.3.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-05 08:31:08,764] 127.0.0.1 - - [05/May/2022 08:31:08] "[36mGET /admin/static/admin/css/bootstrap2/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+INFO [2022-05-05 08:31:08,764] 127.0.0.1 - - [05/May/2022 08:31:08] "[36mGET /admin/static/vendor/jquery.min.js?v=3.3.1 HTTP/1.1[0m" 304 -
+INFO [2022-05-05 08:31:08,765] 127.0.0.1 - - [05/May/2022 08:31:08] "[36mGET /admin/static/bootstrap/bootstrap2/js/bootstrap.min.js?v=2.3.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-05 08:31:08,769] 127.0.0.1 - - [05/May/2022 08:31:08] "[36mGET /admin/static/vendor/select2/select2.min.js?v=3.5.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-05 08:31:08,769] 127.0.0.1 - - [05/May/2022 08:31:08] "[36mGET /admin/static/vendor/moment.min.js?v=2.22.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-05 08:31:10,672] 127.0.0.1 - - [05/May/2022 08:31:10] "GET /admin/archivo/ HTTP/1.1" 200 -
+INFO [2022-05-05 08:31:10,699] 127.0.0.1 - - [05/May/2022 08:31:10] "[36mGET /admin/static/bootstrap/bootstrap2/swatch/default/bootstrap.min.css?v=2.3.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-05 08:31:10,704] 127.0.0.1 - - [05/May/2022 08:31:10] "[36mGET /admin/static/bootstrap/bootstrap2/css/bootstrap-responsive.css?v=2.3.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-05 08:31:10,705] 127.0.0.1 - - [05/May/2022 08:31:10] "[36mGET /admin/static/admin/css/bootstrap2/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+INFO [2022-05-05 08:31:10,709] 127.0.0.1 - - [05/May/2022 08:31:10] "[36mGET /admin/static/vendor/select2/select2.css?v=3.5.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-05 08:31:10,709] 127.0.0.1 - - [05/May/2022 08:31:10] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker-bs2.css?v=1.3.22 HTTP/1.1[0m" 304 -
+INFO [2022-05-05 08:31:10,712] 127.0.0.1 - - [05/May/2022 08:31:10] "[36mGET /admin/static/vendor/jquery.min.js?v=3.3.1 HTTP/1.1[0m" 304 -
+INFO [2022-05-05 08:31:10,715] 127.0.0.1 - - [05/May/2022 08:31:10] "[36mGET /admin/static/bootstrap/bootstrap2/js/bootstrap.min.js?v=2.3.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-05 08:31:10,717] 127.0.0.1 - - [05/May/2022 08:31:10] "[36mGET /admin/static/vendor/select2/select2.min.js?v=3.5.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-05 08:31:10,718] 127.0.0.1 - - [05/May/2022 08:31:10] "[36mGET /admin/static/vendor/moment.min.js?v=2.22.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-05 08:31:10,720] 127.0.0.1 - - [05/May/2022 08:31:10] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker.js?v=1.3.22 HTTP/1.1[0m" 304 -
+INFO [2022-05-05 08:31:10,721] 127.0.0.1 - - [05/May/2022 08:31:10] "[36mGET /admin/static/admin/js/form.js?v=1.0.1 HTTP/1.1[0m" 304 -
+INFO [2022-05-05 08:31:10,722] 127.0.0.1 - - [05/May/2022 08:31:10] "[36mGET /admin/static/admin/js/filters.js?v=1.0.0 HTTP/1.1[0m" 304 -
+INFO [2022-05-05 08:31:10,723] 127.0.0.1 - - [05/May/2022 08:31:10] "[36mGET /admin/static/admin/js/actions.js?v=1.0.0 HTTP/1.1[0m" 304 -
+INFO [2022-05-05 08:31:10,725] 127.0.0.1 - - [05/May/2022 08:31:10] "[36mGET /admin/static/bootstrap/bootstrap2/swatch/img/glyphicons-halflings.png HTTP/1.1[0m" 304 -
+INFO [2022-05-06 07:55:13,434] 127.0.0.1 - - [06/May/2022 07:55:13] "GET /admin/archivo/ HTTP/1.1" 200 -
+INFO [2022-05-06 07:55:13,467] 127.0.0.1 - - [06/May/2022 07:55:13] "[36mGET /admin/static/bootstrap/bootstrap2/swatch/default/bootstrap.min.css?v=2.3.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 07:55:13,467] 127.0.0.1 - - [06/May/2022 07:55:13] "[36mGET /admin/static/bootstrap/bootstrap2/css/bootstrap-responsive.css?v=2.3.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 07:55:13,468] 127.0.0.1 - - [06/May/2022 07:55:13] "[36mGET /admin/static/admin/css/bootstrap2/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 07:55:13,468] 127.0.0.1 - - [06/May/2022 07:55:13] "[36mGET /admin/static/vendor/select2/select2.css?v=3.5.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 07:55:13,472] 127.0.0.1 - - [06/May/2022 07:55:13] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker-bs2.css?v=1.3.22 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 07:55:13,473] 127.0.0.1 - - [06/May/2022 07:55:13] "[36mGET /admin/static/bootstrap/bootstrap2/js/bootstrap.min.js?v=2.3.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 07:55:13,473] 127.0.0.1 - - [06/May/2022 07:55:13] "[36mGET /admin/static/vendor/jquery.min.js?v=3.3.1 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 07:55:13,475] 127.0.0.1 - - [06/May/2022 07:55:13] "[36mGET /admin/static/vendor/moment.min.js?v=2.22.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 07:55:13,475] 127.0.0.1 - - [06/May/2022 07:55:13] "[36mGET /admin/static/vendor/select2/select2.min.js?v=3.5.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 07:55:13,477] 127.0.0.1 - - [06/May/2022 07:55:13] "[36mGET /admin/static/admin/js/form.js?v=1.0.1 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 07:55:13,480] 127.0.0.1 - - [06/May/2022 07:55:13] "[36mGET /admin/static/admin/js/filters.js?v=1.0.0 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 07:55:13,480] 127.0.0.1 - - [06/May/2022 07:55:13] "[36mGET /admin/static/admin/js/actions.js?v=1.0.0 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 07:55:13,480] 127.0.0.1 - - [06/May/2022 07:55:13] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker.js?v=1.3.22 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 07:55:13,495] 127.0.0.1 - - [06/May/2022 07:55:13] "[36mGET /admin/static/bootstrap/bootstrap2/swatch/img/glyphicons-halflings.png HTTP/1.1[0m" 304 -
+INFO [2022-05-06 07:55:15,014] 127.0.0.1 - - [06/May/2022 07:55:15] "GET /admin/archivo/ HTTP/1.1" 200 -
+INFO [2022-05-06 07:55:15,044] 127.0.0.1 - - [06/May/2022 07:55:15] "[36mGET /admin/static/admin/css/bootstrap2/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 07:55:15,045] 127.0.0.1 - - [06/May/2022 07:55:15] "[36mGET /admin/static/vendor/select2/select2.css?v=3.5.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 07:55:15,045] 127.0.0.1 - - [06/May/2022 07:55:15] "[36mGET /admin/static/bootstrap/bootstrap2/swatch/default/bootstrap.min.css?v=2.3.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 07:55:15,046] 127.0.0.1 - - [06/May/2022 07:55:15] "[36mGET /admin/static/bootstrap/bootstrap2/css/bootstrap-responsive.css?v=2.3.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 07:55:15,050] 127.0.0.1 - - [06/May/2022 07:55:15] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker-bs2.css?v=1.3.22 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 07:55:15,053] 127.0.0.1 - - [06/May/2022 07:55:15] "[36mGET /admin/static/vendor/jquery.min.js?v=3.3.1 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 07:55:15,054] 127.0.0.1 - - [06/May/2022 07:55:15] "[36mGET /admin/static/bootstrap/bootstrap2/js/bootstrap.min.js?v=2.3.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 07:55:15,056] 127.0.0.1 - - [06/May/2022 07:55:15] "[36mGET /admin/static/vendor/moment.min.js?v=2.22.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 07:55:15,058] 127.0.0.1 - - [06/May/2022 07:55:15] "[36mGET /admin/static/vendor/select2/select2.min.js?v=3.5.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 07:55:15,063] 127.0.0.1 - - [06/May/2022 07:55:15] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker.js?v=1.3.22 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 07:55:15,064] 127.0.0.1 - - [06/May/2022 07:55:15] "[36mGET /admin/static/admin/js/filters.js?v=1.0.0 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 07:55:15,064] 127.0.0.1 - - [06/May/2022 07:55:15] "[36mGET /admin/static/admin/js/form.js?v=1.0.1 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 07:55:15,066] 127.0.0.1 - - [06/May/2022 07:55:15] "[36mGET /admin/static/admin/js/actions.js?v=1.0.0 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 07:55:20,212] 127.0.0.1 - - [06/May/2022 07:55:20] "GET /admin/subcategoria/ HTTP/1.1" 200 -
+INFO [2022-05-06 07:55:20,242] 127.0.0.1 - - [06/May/2022 07:55:20] "[36mGET /admin/static/bootstrap/bootstrap2/swatch/default/bootstrap.min.css?v=2.3.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 07:55:20,244] 127.0.0.1 - - [06/May/2022 07:55:20] "[36mGET /admin/static/admin/css/bootstrap2/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 07:55:20,245] 127.0.0.1 - - [06/May/2022 07:55:20] "[36mGET /admin/static/bootstrap/bootstrap2/css/bootstrap-responsive.css?v=2.3.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 07:55:20,246] 127.0.0.1 - - [06/May/2022 07:55:20] "[36mGET /admin/static/vendor/select2/select2.css?v=3.5.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 07:55:20,251] 127.0.0.1 - - [06/May/2022 07:55:20] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker-bs2.css?v=1.3.22 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 07:55:20,252] 127.0.0.1 - - [06/May/2022 07:55:20] "[36mGET /admin/static/vendor/jquery.min.js?v=3.3.1 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 07:55:20,256] 127.0.0.1 - - [06/May/2022 07:55:20] "[36mGET /admin/static/vendor/moment.min.js?v=2.22.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 07:55:20,258] 127.0.0.1 - - [06/May/2022 07:55:20] "[36mGET /admin/static/bootstrap/bootstrap2/js/bootstrap.min.js?v=2.3.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 07:55:20,260] 127.0.0.1 - - [06/May/2022 07:55:20] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker.js?v=1.3.22 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 07:55:20,263] 127.0.0.1 - - [06/May/2022 07:55:20] "[36mGET /admin/static/vendor/select2/select2.min.js?v=3.5.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 07:55:20,264] 127.0.0.1 - - [06/May/2022 07:55:20] "[36mGET /admin/static/admin/js/form.js?v=1.0.1 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 07:55:20,266] 127.0.0.1 - - [06/May/2022 07:55:20] "[36mGET /admin/static/admin/js/filters.js?v=1.0.0 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 07:55:20,266] 127.0.0.1 - - [06/May/2022 07:55:20] "[36mGET /admin/static/admin/js/actions.js?v=1.0.0 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 07:56:23,059] 127.0.0.1 - - [06/May/2022 07:56:23] "GET /admin/categoria/ HTTP/1.1" 200 -
+INFO [2022-05-06 07:56:23,088] 127.0.0.1 - - [06/May/2022 07:56:23] "[36mGET /admin/static/bootstrap/bootstrap2/css/bootstrap-responsive.css?v=2.3.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 07:56:23,091] 127.0.0.1 - - [06/May/2022 07:56:23] "[36mGET /admin/static/bootstrap/bootstrap2/swatch/default/bootstrap.min.css?v=2.3.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 07:56:23,093] 127.0.0.1 - - [06/May/2022 07:56:23] "[36mGET /admin/static/vendor/select2/select2.css?v=3.5.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 07:56:23,094] 127.0.0.1 - - [06/May/2022 07:56:23] "[36mGET /admin/static/admin/css/bootstrap2/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 07:56:23,097] 127.0.0.1 - - [06/May/2022 07:56:23] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker-bs2.css?v=1.3.22 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 07:56:23,098] 127.0.0.1 - - [06/May/2022 07:56:23] "[36mGET /admin/static/vendor/jquery.min.js?v=3.3.1 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 07:56:23,104] 127.0.0.1 - - [06/May/2022 07:56:23] "[36mGET /admin/static/bootstrap/bootstrap2/js/bootstrap.min.js?v=2.3.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 07:56:23,105] 127.0.0.1 - - [06/May/2022 07:56:23] "[36mGET /admin/static/vendor/select2/select2.min.js?v=3.5.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 07:56:23,106] 127.0.0.1 - - [06/May/2022 07:56:23] "[36mGET /admin/static/vendor/moment.min.js?v=2.22.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 07:56:23,109] 127.0.0.1 - - [06/May/2022 07:56:23] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker.js?v=1.3.22 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 07:56:23,110] 127.0.0.1 - - [06/May/2022 07:56:23] "[36mGET /admin/static/admin/js/form.js?v=1.0.1 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 07:56:23,111] 127.0.0.1 - - [06/May/2022 07:56:23] "[36mGET /admin/static/admin/js/filters.js?v=1.0.0 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 07:56:23,113] 127.0.0.1 - - [06/May/2022 07:56:23] "[36mGET /admin/static/admin/js/actions.js?v=1.0.0 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 07:56:37,950] 127.0.0.1 - - [06/May/2022 07:56:37] "GET /admin/archivo/ HTTP/1.1" 200 -
+INFO [2022-05-06 07:56:37,979] 127.0.0.1 - - [06/May/2022 07:56:37] "[36mGET /admin/static/bootstrap/bootstrap2/swatch/default/bootstrap.min.css?v=2.3.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 07:56:37,981] 127.0.0.1 - - [06/May/2022 07:56:37] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker-bs2.css?v=1.3.22 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 07:56:37,983] 127.0.0.1 - - [06/May/2022 07:56:37] "[36mGET /admin/static/admin/css/bootstrap2/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 07:56:37,984] 127.0.0.1 - - [06/May/2022 07:56:37] "[36mGET /admin/static/vendor/select2/select2.css?v=3.5.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 07:56:37,989] 127.0.0.1 - - [06/May/2022 07:56:37] "[36mGET /admin/static/vendor/moment.min.js?v=2.22.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 07:56:37,991] 127.0.0.1 - - [06/May/2022 07:56:37] "[36mGET /admin/static/vendor/select2/select2.min.js?v=3.5.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 07:56:37,985] 127.0.0.1 - - [06/May/2022 07:56:37] "[36mGET /admin/static/bootstrap/bootstrap2/css/bootstrap-responsive.css?v=2.3.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 07:56:37,987] 127.0.0.1 - - [06/May/2022 07:56:37] "[36mGET /admin/static/vendor/jquery.min.js?v=3.3.1 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 07:56:37,994] 127.0.0.1 - - [06/May/2022 07:56:37] "[36mGET /admin/static/bootstrap/bootstrap2/js/bootstrap.min.js?v=2.3.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 07:56:37,997] 127.0.0.1 - - [06/May/2022 07:56:37] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker.js?v=1.3.22 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 07:56:38,000] 127.0.0.1 - - [06/May/2022 07:56:38] "[36mGET /admin/static/admin/js/form.js?v=1.0.1 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 07:56:38,000] 127.0.0.1 - - [06/May/2022 07:56:38] "[36mGET /admin/static/admin/js/filters.js?v=1.0.0 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 07:56:38,002] 127.0.0.1 - - [06/May/2022 07:56:38] "[36mGET /admin/static/admin/js/actions.js?v=1.0.0 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:47:59,314] 127.0.0.1 - - [06/May/2022 08:47:59] "GET /admin/subcategoria/ HTTP/1.1" 200 -
+INFO [2022-05-06 08:47:59,346] 127.0.0.1 - - [06/May/2022 08:47:59] "[36mGET /admin/static/bootstrap/bootstrap2/swatch/default/bootstrap.min.css?v=2.3.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:47:59,348] 127.0.0.1 - - [06/May/2022 08:47:59] "[36mGET /admin/static/bootstrap/bootstrap2/css/bootstrap-responsive.css?v=2.3.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:47:59,348] 127.0.0.1 - - [06/May/2022 08:47:59] "[36mGET /admin/static/vendor/select2/select2.css?v=3.5.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:47:59,349] 127.0.0.1 - - [06/May/2022 08:47:59] "[36mGET /admin/static/admin/css/bootstrap2/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:47:59,351] 127.0.0.1 - - [06/May/2022 08:47:59] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker-bs2.css?v=1.3.22 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:47:59,355] 127.0.0.1 - - [06/May/2022 08:47:59] "[36mGET /admin/static/vendor/jquery.min.js?v=3.3.1 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:47:59,356] 127.0.0.1 - - [06/May/2022 08:47:59] "[36mGET /admin/static/bootstrap/bootstrap2/js/bootstrap.min.js?v=2.3.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:47:59,360] 127.0.0.1 - - [06/May/2022 08:47:59] "[36mGET /admin/static/vendor/moment.min.js?v=2.22.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:47:59,362] 127.0.0.1 - - [06/May/2022 08:47:59] "[36mGET /admin/static/vendor/select2/select2.min.js?v=3.5.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:47:59,363] 127.0.0.1 - - [06/May/2022 08:47:59] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker.js?v=1.3.22 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:47:59,366] 127.0.0.1 - - [06/May/2022 08:47:59] "[36mGET /admin/static/admin/js/form.js?v=1.0.1 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:47:59,367] 127.0.0.1 - - [06/May/2022 08:47:59] "[36mGET /admin/static/admin/js/filters.js?v=1.0.0 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:47:59,368] 127.0.0.1 - - [06/May/2022 08:47:59] "[36mGET /admin/static/admin/js/actions.js?v=1.0.0 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:48:02,934] 127.0.0.1 - - [06/May/2022 08:48:02] "GET /admin/archivo/ HTTP/1.1" 200 -
+INFO [2022-05-06 08:48:02,963] 127.0.0.1 - - [06/May/2022 08:48:02] "[36mGET /admin/static/bootstrap/bootstrap2/css/bootstrap-responsive.css?v=2.3.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:48:02,965] 127.0.0.1 - - [06/May/2022 08:48:02] "[36mGET /admin/static/bootstrap/bootstrap2/swatch/default/bootstrap.min.css?v=2.3.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:48:02,967] 127.0.0.1 - - [06/May/2022 08:48:02] "[36mGET /admin/static/vendor/select2/select2.css?v=3.5.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:48:02,967] 127.0.0.1 - - [06/May/2022 08:48:02] "[36mGET /admin/static/admin/css/bootstrap2/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:48:02,972] 127.0.0.1 - - [06/May/2022 08:48:02] "[36mGET /admin/static/vendor/jquery.min.js?v=3.3.1 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:48:02,972] 127.0.0.1 - - [06/May/2022 08:48:02] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker-bs2.css?v=1.3.22 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:48:02,976] 127.0.0.1 - - [06/May/2022 08:48:02] "[36mGET /admin/static/vendor/moment.min.js?v=2.22.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:48:02,977] 127.0.0.1 - - [06/May/2022 08:48:02] "[36mGET /admin/static/bootstrap/bootstrap2/js/bootstrap.min.js?v=2.3.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:48:02,981] 127.0.0.1 - - [06/May/2022 08:48:02] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker.js?v=1.3.22 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:48:02,982] 127.0.0.1 - - [06/May/2022 08:48:02] "[36mGET /admin/static/admin/js/form.js?v=1.0.1 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:48:02,983] 127.0.0.1 - - [06/May/2022 08:48:02] "[36mGET /admin/static/vendor/select2/select2.min.js?v=3.5.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:48:02,984] 127.0.0.1 - - [06/May/2022 08:48:02] "[36mGET /admin/static/admin/js/filters.js?v=1.0.0 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:48:02,986] 127.0.0.1 - - [06/May/2022 08:48:02] "[36mGET /admin/static/admin/js/actions.js?v=1.0.0 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:50:03,852] Iniciado el sistema
+INFO [2022-05-06 08:50:03,896]  * Running on http://127.0.0.1:5001/ (Press CTRL+C to quit)
+INFO [2022-05-06 08:50:13,225] 127.0.0.1 - - [06/May/2022 08:50:13] "GET /admin/archivo/ HTTP/1.1" 200 -
+INFO [2022-05-06 08:50:13,265] 127.0.0.1 - - [06/May/2022 08:50:13] "[36mGET /admin/static/admin/css/bootstrap2/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:50:13,265] 127.0.0.1 - - [06/May/2022 08:50:13] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker-bs2.css?v=1.3.22 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:50:13,265] 127.0.0.1 - - [06/May/2022 08:50:13] "[36mGET /admin/static/bootstrap/bootstrap2/css/bootstrap-responsive.css?v=2.3.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:50:13,265] 127.0.0.1 - - [06/May/2022 08:50:13] "[36mGET /admin/static/bootstrap/bootstrap2/swatch/default/bootstrap.min.css?v=2.3.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:50:13,265] 127.0.0.1 - - [06/May/2022 08:50:13] "[36mGET /admin/static/vendor/jquery.min.js?v=3.3.1 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:50:13,266] 127.0.0.1 - - [06/May/2022 08:50:13] "[36mGET /admin/static/vendor/select2/select2.css?v=3.5.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:50:13,269] 127.0.0.1 - - [06/May/2022 08:50:13] "[36mGET /admin/static/bootstrap/bootstrap2/js/bootstrap.min.js?v=2.3.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:50:13,270] 127.0.0.1 - - [06/May/2022 08:50:13] "[36mGET /admin/static/vendor/moment.min.js?v=2.22.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:50:13,271] 127.0.0.1 - - [06/May/2022 08:50:13] "[36mGET /admin/static/vendor/select2/select2.min.js?v=3.5.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:50:13,272] 127.0.0.1 - - [06/May/2022 08:50:13] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker.js?v=1.3.22 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:50:13,272] 127.0.0.1 - - [06/May/2022 08:50:13] "[36mGET /admin/static/admin/js/filters.js?v=1.0.0 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:50:13,273] 127.0.0.1 - - [06/May/2022 08:50:13] "[36mGET /admin/static/admin/js/form.js?v=1.0.1 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:50:13,273] 127.0.0.1 - - [06/May/2022 08:50:13] "[36mGET /admin/static/admin/js/actions.js?v=1.0.0 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:50:58,241] 127.0.0.1 - - [06/May/2022 08:50:58] "[32mPOST /admin/archivo/action/ HTTP/1.1[0m" 302 -
+INFO [2022-05-06 08:50:58,260] 127.0.0.1 - - [06/May/2022 08:50:58] "GET /admin/archivo/ HTTP/1.1" 200 -
+INFO [2022-05-06 08:50:58,290] 127.0.0.1 - - [06/May/2022 08:50:58] "[36mGET /admin/static/bootstrap/bootstrap2/swatch/default/bootstrap.min.css?v=2.3.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:50:58,292] 127.0.0.1 - - [06/May/2022 08:50:58] "[36mGET /admin/static/bootstrap/bootstrap2/css/bootstrap-responsive.css?v=2.3.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:50:58,295] 127.0.0.1 - - [06/May/2022 08:50:58] "[36mGET /admin/static/admin/css/bootstrap2/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:50:58,295] 127.0.0.1 - - [06/May/2022 08:50:58] "[36mGET /admin/static/vendor/select2/select2.css?v=3.5.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:50:58,297] 127.0.0.1 - - [06/May/2022 08:50:58] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker-bs2.css?v=1.3.22 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:50:58,298] 127.0.0.1 - - [06/May/2022 08:50:58] "[36mGET /admin/static/vendor/jquery.min.js?v=3.3.1 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:50:58,300] 127.0.0.1 - - [06/May/2022 08:50:58] "[36mGET /admin/static/bootstrap/bootstrap2/js/bootstrap.min.js?v=2.3.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:50:58,300] 127.0.0.1 - - [06/May/2022 08:50:58] "[36mGET /admin/static/vendor/moment.min.js?v=2.22.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:50:58,301] 127.0.0.1 - - [06/May/2022 08:50:58] "[36mGET /admin/static/vendor/select2/select2.min.js?v=3.5.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:50:58,303] 127.0.0.1 - - [06/May/2022 08:50:58] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker.js?v=1.3.22 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:50:58,305] 127.0.0.1 - - [06/May/2022 08:50:58] "[36mGET /admin/static/admin/js/form.js?v=1.0.1 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:50:58,305] 127.0.0.1 - - [06/May/2022 08:50:58] "[36mGET /admin/static/admin/js/actions.js?v=1.0.0 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:50:58,306] 127.0.0.1 - - [06/May/2022 08:50:58] "[36mGET /admin/static/admin/js/filters.js?v=1.0.0 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:51:05,585] 127.0.0.1 - - [06/May/2022 08:51:05] "[32mPOST /admin/archivo/action/ HTTP/1.1[0m" 302 -
+INFO [2022-05-06 08:51:05,604] 127.0.0.1 - - [06/May/2022 08:51:05] "GET /admin/archivo/ HTTP/1.1" 200 -
+INFO [2022-05-06 08:51:05,632] 127.0.0.1 - - [06/May/2022 08:51:05] "[36mGET /admin/static/bootstrap/bootstrap2/css/bootstrap-responsive.css?v=2.3.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:51:05,633] 127.0.0.1 - - [06/May/2022 08:51:05] "[36mGET /admin/static/bootstrap/bootstrap2/swatch/default/bootstrap.min.css?v=2.3.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:51:05,633] 127.0.0.1 - - [06/May/2022 08:51:05] "[36mGET /admin/static/admin/css/bootstrap2/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:51:05,636] 127.0.0.1 - - [06/May/2022 08:51:05] "[36mGET /admin/static/vendor/select2/select2.css?v=3.5.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:51:05,637] 127.0.0.1 - - [06/May/2022 08:51:05] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker-bs2.css?v=1.3.22 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:51:05,638] 127.0.0.1 - - [06/May/2022 08:51:05] "[36mGET /admin/static/vendor/jquery.min.js?v=3.3.1 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:51:05,640] 127.0.0.1 - - [06/May/2022 08:51:05] "[36mGET /admin/static/bootstrap/bootstrap2/js/bootstrap.min.js?v=2.3.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:51:05,643] 127.0.0.1 - - [06/May/2022 08:51:05] "[36mGET /admin/static/vendor/moment.min.js?v=2.22.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:51:05,644] 127.0.0.1 - - [06/May/2022 08:51:05] "[36mGET /admin/static/vendor/select2/select2.min.js?v=3.5.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:51:05,645] 127.0.0.1 - - [06/May/2022 08:51:05] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker.js?v=1.3.22 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:51:05,646] 127.0.0.1 - - [06/May/2022 08:51:05] "[36mGET /admin/static/admin/js/form.js?v=1.0.1 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:51:05,646] 127.0.0.1 - - [06/May/2022 08:51:05] "[36mGET /admin/static/admin/js/filters.js?v=1.0.0 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:51:05,648] 127.0.0.1 - - [06/May/2022 08:51:05] "[36mGET /admin/static/admin/js/actions.js?v=1.0.0 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:51:36,025] david ha eliminado 2022-01-ACT-COM.xls
+INFO [2022-05-06 08:51:36,031] david ha eliminado 2022-01-CAT-CAT.xls
+INFO [2022-05-06 08:51:36,038] david ha eliminado 2022-01-ESP-CAT.xlsx
+INFO [2022-05-06 08:51:36,044] david ha eliminado 2022-01-RES-COM.xls
+INFO [2022-05-06 08:51:36,048] david ha eliminado 2022-02-ACT-COM.xls
+INFO [2022-05-06 08:51:36,052] david ha eliminado 2022-02-CAT-CAT.xls
+INFO [2022-05-06 08:51:36,055] david ha eliminado 2022-02-ESP-CAT.xlsx
+INFO [2022-05-06 08:51:36,058] david ha eliminado 2022-02-RES-COM.xls
+INFO [2022-05-06 08:51:36,061] david ha eliminado 2023-01-ACT-COM.xls
+INFO [2022-05-06 08:51:36,063] 127.0.0.1 - - [06/May/2022 08:51:36] "[32mPOST /admin/archivo/action/ HTTP/1.1[0m" 302 -
+INFO [2022-05-06 08:51:36,073] 127.0.0.1 - - [06/May/2022 08:51:36] "GET /admin/archivo/ HTTP/1.1" 200 -
+INFO [2022-05-06 08:51:36,098] 127.0.0.1 - - [06/May/2022 08:51:36] "[36mGET /admin/static/bootstrap/bootstrap2/css/bootstrap-responsive.css?v=2.3.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:51:36,100] 127.0.0.1 - - [06/May/2022 08:51:36] "[36mGET /admin/static/bootstrap/bootstrap2/swatch/default/bootstrap.min.css?v=2.3.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:51:36,102] 127.0.0.1 - - [06/May/2022 08:51:36] "[36mGET /admin/static/admin/css/bootstrap2/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:51:36,103] 127.0.0.1 - - [06/May/2022 08:51:36] "[36mGET /admin/static/vendor/select2/select2.css?v=3.5.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:51:36,105] 127.0.0.1 - - [06/May/2022 08:51:36] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker-bs2.css?v=1.3.22 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:51:36,107] 127.0.0.1 - - [06/May/2022 08:51:36] "[36mGET /admin/static/vendor/jquery.min.js?v=3.3.1 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:51:36,108] 127.0.0.1 - - [06/May/2022 08:51:36] "[36mGET /admin/static/bootstrap/bootstrap2/js/bootstrap.min.js?v=2.3.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:51:36,110] 127.0.0.1 - - [06/May/2022 08:51:36] "[36mGET /admin/static/vendor/moment.min.js?v=2.22.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:51:36,110] 127.0.0.1 - - [06/May/2022 08:51:36] "[36mGET /admin/static/vendor/select2/select2.min.js?v=3.5.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:51:36,112] 127.0.0.1 - - [06/May/2022 08:51:36] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker.js?v=1.3.22 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:51:36,114] 127.0.0.1 - - [06/May/2022 08:51:36] "[36mGET /admin/static/admin/js/form.js?v=1.0.1 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:51:36,115] 127.0.0.1 - - [06/May/2022 08:51:36] "[36mGET /admin/static/admin/js/filters.js?v=1.0.0 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:51:36,115] 127.0.0.1 - - [06/May/2022 08:51:36] "[36mGET /admin/static/admin/js/actions.js?v=1.0.0 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:51:58,010] 127.0.0.1 - - [06/May/2022 08:51:58] "GET /admin/archivo/new/?url=%2Fadmin%2Farchivo%2F HTTP/1.1" 200 -
+INFO [2022-05-06 08:51:58,039] 127.0.0.1 - - [06/May/2022 08:51:58] "[36mGET /admin/static/bootstrap/bootstrap2/css/bootstrap-responsive.css?v=2.3.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:51:58,041] 127.0.0.1 - - [06/May/2022 08:51:58] "[36mGET /admin/static/admin/css/bootstrap2/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:51:58,045] 127.0.0.1 - - [06/May/2022 08:51:58] "[36mGET /admin/static/bootstrap/bootstrap2/swatch/default/bootstrap.min.css?v=2.3.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:51:58,045] 127.0.0.1 - - [06/May/2022 08:51:58] "[36mGET /admin/static/vendor/jquery.min.js?v=3.3.1 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:51:58,046] 127.0.0.1 - - [06/May/2022 08:51:58] "[36mGET /admin/static/bootstrap/bootstrap2/js/bootstrap.min.js?v=2.3.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:51:58,047] 127.0.0.1 - - [06/May/2022 08:51:58] "[36mGET /admin/static/vendor/moment.min.js?v=2.22.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:51:58,050] 127.0.0.1 - - [06/May/2022 08:51:58] "[36mGET /admin/static/vendor/select2/select2.min.js?v=3.5.2 HTTP/1.1[0m" 304 -
+ERROR [2022-05-06 08:52:09,348] Exception on /admin/archivo/new/ [POST]
+Traceback (most recent call last):
+  File "/Users/davidmorenogarcia/Desktop/virtual/lib/python3.9/site-packages/sqlalchemy/sql/coercions.py", line 507, in _literal_coercion
+    return expr._bind_param(operator, element, type_=bindparam_type)
+  File "/Users/davidmorenogarcia/Desktop/virtual/lib/python3.9/site-packages/sqlalchemy/sql/elements.py", line 4676, in _bind_param
+    return BindParameter(
+  File "/Users/davidmorenogarcia/Desktop/virtual/lib/python3.9/site-packages/sqlalchemy/sql/elements.py", line 1545, in __init__
+    self.type = _compared_to_type.coerce_compared_value(
+  File "/Users/davidmorenogarcia/Desktop/virtual/lib/python3.9/site-packages/sqlalchemy/sql/type_api.py", line 768, in coerce_compared_value
+    _coerced_type = _resolve_value_to_type(value)
+  File "/Users/davidmorenogarcia/Desktop/virtual/lib/python3.9/site-packages/sqlalchemy/sql/sqltypes.py", line 3294, in _resolve_value_to_type
+    raise exc.ArgumentError(
+sqlalchemy.exc.ArgumentError: Object <Categoria 'Activo'> is not legal as a SQL literal value
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/davidmorenogarcia/Desktop/virtual/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/davidmorenogarcia/Desktop/virtual/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/davidmorenogarcia/Desktop/virtual/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/davidmorenogarcia/Desktop/virtual/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/davidmorenogarcia/Desktop/virtual/lib/python3.9/site-packages/flask_admin/base.py", line 69, in inner
+    return self._run_view(f, *args, **kwargs)
+  File "/Users/davidmorenogarcia/Desktop/virtual/lib/python3.9/site-packages/flask_admin/base.py", line 368, in _run_view
+    return fn(self, *args, **kwargs)
+  File "/Users/davidmorenogarcia/Dropbox/Calamar/Admin/app/views.py", line 114, in create_view
+    sub = Subcategoria.query.filter_by(categoria=cat,abreviatura=subA).first()
+  File "/Users/davidmorenogarcia/Desktop/virtual/lib/python3.9/site-packages/sqlalchemy/orm/query.py", line 1793, in filter_by
+    clauses = [
+  File "/Users/davidmorenogarcia/Desktop/virtual/lib/python3.9/site-packages/sqlalchemy/orm/query.py", line 1794, in <listcomp>
+    _entity_namespace_key(from_entity, key) == value
+  File "/Users/davidmorenogarcia/Desktop/virtual/lib/python3.9/site-packages/sqlalchemy/sql/operators.py", line 360, in __eq__
+    return self.operate(eq, other)
+  File "/Users/davidmorenogarcia/Desktop/virtual/lib/python3.9/site-packages/sqlalchemy/orm/attributes.py", line 317, in operate
+    return op(self.comparator, *other, **kwargs)
+  File "/Users/davidmorenogarcia/Desktop/virtual/lib/python3.9/site-packages/sqlalchemy/sql/operators.py", line 360, in __eq__
+    return self.operate(eq, other)
+  File "/Users/davidmorenogarcia/Desktop/virtual/lib/python3.9/site-packages/sqlalchemy/orm/properties.py", line 431, in operate
+    return op(self.__clause_element__(), *other, **kwargs)
+  File "/Users/davidmorenogarcia/Desktop/virtual/lib/python3.9/site-packages/sqlalchemy/sql/annotation.py", line 221, in __eq__
+    return self.__element.__class__.__eq__(self, other)
+  File "/Users/davidmorenogarcia/Desktop/virtual/lib/python3.9/site-packages/sqlalchemy/sql/operators.py", line 360, in __eq__
+    return self.operate(eq, other)
+  File "/Users/davidmorenogarcia/Desktop/virtual/lib/python3.9/site-packages/sqlalchemy/sql/elements.py", line 858, in operate
+    return op(self.comparator, *other, **kwargs)
+  File "/Users/davidmorenogarcia/Desktop/virtual/lib/python3.9/site-packages/sqlalchemy/sql/operators.py", line 360, in __eq__
+    return self.operate(eq, other)
+  File "/Users/davidmorenogarcia/Desktop/virtual/lib/python3.9/site-packages/sqlalchemy/sql/type_api.py", line 76, in operate
+    return o[0](self.expr, op, *(other + o[1:]), **kwargs)
+  File "/Users/davidmorenogarcia/Desktop/virtual/lib/python3.9/site-packages/sqlalchemy/sql/default_comparator.py", line 101, in _boolean_compare
+    obj = coercions.expect(
+  File "/Users/davidmorenogarcia/Desktop/virtual/lib/python3.9/site-packages/sqlalchemy/sql/coercions.py", line 187, in expect
+    resolved = impl._literal_coercion(
+  File "/Users/davidmorenogarcia/Desktop/virtual/lib/python3.9/site-packages/sqlalchemy/sql/coercions.py", line 509, in _literal_coercion
+    self._raise_for_expected(element, err=err)
+  File "/Users/davidmorenogarcia/Desktop/virtual/lib/python3.9/site-packages/sqlalchemy/sql/coercions.py", line 494, in _raise_for_expected
+    return super(ExpressionElementImpl, self)._raise_for_expected(
+  File "/Users/davidmorenogarcia/Desktop/virtual/lib/python3.9/site-packages/sqlalchemy/sql/coercions.py", line 282, in _raise_for_expected
+    util.raise_(exc.ArgumentError(msg, code=code), replace_context=err)
+  File "/Users/davidmorenogarcia/Desktop/virtual/lib/python3.9/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+    raise exception
+sqlalchemy.exc.ArgumentError: SQL expression element or literal value expected, got <Categoria 'Activo'>.
+INFO [2022-05-06 08:52:09,374] 127.0.0.1 - - [06/May/2022 08:52:09] "[35m[1mPOST /admin/archivo/new/?url=%2Fadmin%2Farchivo%2F HTTP/1.1[0m" 500 -
+INFO [2022-05-06 08:52:09,404] 127.0.0.1 - - [06/May/2022 08:52:09] "GET /static/js/jquery-3.2.1.js HTTP/1.1" 200 -
+INFO [2022-05-06 08:52:09,404] 127.0.0.1 - - [06/May/2022 08:52:09] "GET /static/css/estilogc.css HTTP/1.1" 200 -
+INFO [2022-05-06 08:52:09,427] 127.0.0.1 - - [06/May/2022 08:52:09] "GET /static/images/cabeceranueva.gif HTTP/1.1" 200 -
+INFO [2022-05-06 08:52:09,430] 127.0.0.1 - - [06/May/2022 08:52:09] "GET /static/images/textogc.gif HTTP/1.1" 200 -
+INFO [2022-05-06 08:53:20,677] Iniciado el sistema
+INFO [2022-05-06 08:53:32,439] Iniciado el sistema
+INFO [2022-05-06 08:53:32,470]  * Running on http://127.0.0.1:5003/ (Press CTRL+C to quit)
+INFO [2022-05-06 08:53:42,540] 127.0.0.1 - - [06/May/2022 08:53:42] "[32mGET / HTTP/1.1[0m" 302 -
+INFO [2022-05-06 08:53:42,577] 127.0.0.1 - - [06/May/2022 08:53:42] "GET /admin/ HTTP/1.1" 200 -
+INFO [2022-05-06 08:53:42,612] 127.0.0.1 - - [06/May/2022 08:53:42] "GET /admin/static/admin/css/bootstrap2/admin.css?v=1.1.1 HTTP/1.1" 200 -
+INFO [2022-05-06 08:53:42,613] 127.0.0.1 - - [06/May/2022 08:53:42] "GET /admin/static/bootstrap/bootstrap2/css/bootstrap-responsive.css?v=2.3.2 HTTP/1.1" 200 -
+INFO [2022-05-06 08:53:42,617] 127.0.0.1 - - [06/May/2022 08:53:42] "GET /admin/static/bootstrap/bootstrap2/swatch/default/bootstrap.min.css?v=2.3.2 HTTP/1.1" 200 -
+INFO [2022-05-06 08:53:42,617] 127.0.0.1 - - [06/May/2022 08:53:42] "GET /admin/static/vendor/moment.min.js?v=2.22.2 HTTP/1.1" 200 -
+INFO [2022-05-06 08:53:42,618] 127.0.0.1 - - [06/May/2022 08:53:42] "GET /admin/static/bootstrap/bootstrap2/js/bootstrap.min.js?v=2.3.2 HTTP/1.1" 200 -
+INFO [2022-05-06 08:53:42,619] 127.0.0.1 - - [06/May/2022 08:53:42] "GET /admin/static/vendor/jquery.min.js?v=3.3.1 HTTP/1.1" 200 -
+INFO [2022-05-06 08:53:42,620] 127.0.0.1 - - [06/May/2022 08:53:42] "GET /admin/static/vendor/select2/select2.min.js?v=3.5.2 HTTP/1.1" 200 -
+INFO [2022-05-06 08:53:42,698] 127.0.0.1 - - [06/May/2022 08:53:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO [2022-05-06 08:53:46,133] 127.0.0.1 - - [06/May/2022 08:53:46] "GET /admin/archivo/ HTTP/1.1" 200 -
+INFO [2022-05-06 08:53:46,155] 127.0.0.1 - - [06/May/2022 08:53:46] "[36mGET /admin/static/bootstrap/bootstrap2/swatch/default/bootstrap.min.css?v=2.3.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:53:46,158] 127.0.0.1 - - [06/May/2022 08:53:46] "[36mGET /admin/static/admin/css/bootstrap2/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:53:46,159] 127.0.0.1 - - [06/May/2022 08:53:46] "[36mGET /admin/static/bootstrap/bootstrap2/css/bootstrap-responsive.css?v=2.3.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:53:46,160] 127.0.0.1 - - [06/May/2022 08:53:46] "GET /admin/static/vendor/select2/select2.css?v=3.5.2 HTTP/1.1" 200 -
+INFO [2022-05-06 08:53:46,161] 127.0.0.1 - - [06/May/2022 08:53:46] "GET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker-bs2.css?v=1.3.22 HTTP/1.1" 200 -
+INFO [2022-05-06 08:53:46,163] 127.0.0.1 - - [06/May/2022 08:53:46] "GET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker.js?v=1.3.22 HTTP/1.1" 200 -
+INFO [2022-05-06 08:53:46,164] 127.0.0.1 - - [06/May/2022 08:53:46] "GET /admin/static/admin/js/form.js?v=1.0.1 HTTP/1.1" 200 -
+INFO [2022-05-06 08:53:46,165] 127.0.0.1 - - [06/May/2022 08:53:46] "[36mGET /admin/static/vendor/jquery.min.js?v=3.3.1 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:53:46,165] 127.0.0.1 - - [06/May/2022 08:53:46] "[36mGET /admin/static/bootstrap/bootstrap2/js/bootstrap.min.js?v=2.3.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:53:46,168] 127.0.0.1 - - [06/May/2022 08:53:46] "GET /admin/static/admin/js/filters.js?v=1.0.0 HTTP/1.1" 200 -
+INFO [2022-05-06 08:53:46,169] 127.0.0.1 - - [06/May/2022 08:53:46] "GET /admin/static/admin/js/actions.js?v=1.0.0 HTTP/1.1" 200 -
+INFO [2022-05-06 08:53:46,170] 127.0.0.1 - - [06/May/2022 08:53:46] "[36mGET /admin/static/vendor/select2/select2.min.js?v=3.5.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:53:46,172] 127.0.0.1 - - [06/May/2022 08:53:46] "[36mGET /admin/static/vendor/moment.min.js?v=2.22.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:53:47,112] 127.0.0.1 - - [06/May/2022 08:53:47] "GET /admin/archivo/new/?url=%2Fadmin%2Farchivo%2F HTTP/1.1" 200 -
+INFO [2022-05-06 08:53:47,135] 127.0.0.1 - - [06/May/2022 08:53:47] "[36mGET /admin/static/bootstrap/bootstrap2/css/bootstrap-responsive.css?v=2.3.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:53:47,138] 127.0.0.1 - - [06/May/2022 08:53:47] "[36mGET /admin/static/bootstrap/bootstrap2/swatch/default/bootstrap.min.css?v=2.3.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:53:47,140] 127.0.0.1 - - [06/May/2022 08:53:47] "[36mGET /admin/static/admin/css/bootstrap2/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:53:47,142] 127.0.0.1 - - [06/May/2022 08:53:47] "[36mGET /admin/static/bootstrap/bootstrap2/js/bootstrap.min.js?v=2.3.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:53:47,144] 127.0.0.1 - - [06/May/2022 08:53:47] "[36mGET /admin/static/vendor/jquery.min.js?v=3.3.1 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:53:47,145] 127.0.0.1 - - [06/May/2022 08:53:47] "[36mGET /admin/static/vendor/moment.min.js?v=2.22.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:53:47,147] 127.0.0.1 - - [06/May/2022 08:53:47] "[36mGET /admin/static/vendor/select2/select2.min.js?v=3.5.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:53:58,270] 127.0.0.1 - - [06/May/2022 08:53:58] "POST /admin/archivo/new/?url=%2Fadmin%2Farchivo%2F HTTP/1.1" 200 -
+INFO [2022-05-06 08:53:58,300] 127.0.0.1 - - [06/May/2022 08:53:58] "[36mGET /admin/static/bootstrap/bootstrap2/swatch/default/bootstrap.min.css?v=2.3.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:53:58,303] 127.0.0.1 - - [06/May/2022 08:53:58] "[36mGET /admin/static/bootstrap/bootstrap2/css/bootstrap-responsive.css?v=2.3.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:53:58,303] 127.0.0.1 - - [06/May/2022 08:53:58] "[36mGET /admin/static/admin/css/bootstrap2/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:53:58,305] 127.0.0.1 - - [06/May/2022 08:53:58] "[36mGET /admin/static/vendor/jquery.min.js?v=3.3.1 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:53:58,305] 127.0.0.1 - - [06/May/2022 08:53:58] "[36mGET /admin/static/bootstrap/bootstrap2/js/bootstrap.min.js?v=2.3.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:53:58,308] 127.0.0.1 - - [06/May/2022 08:53:58] "[36mGET /admin/static/vendor/select2/select2.min.js?v=3.5.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:53:58,308] 127.0.0.1 - - [06/May/2022 08:53:58] "[36mGET /admin/static/vendor/moment.min.js?v=2.22.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:56:02,119] Iniciado el sistema
+INFO [2022-05-06 08:56:02,157]  * Running on http://127.0.0.1:5003/ (Press CTRL+C to quit)
+INFO [2022-05-06 08:56:07,521] 127.0.0.1 - - [06/May/2022 08:56:07] "GET /admin/archivo/ HTTP/1.1" 200 -
+INFO [2022-05-06 08:56:07,555] 127.0.0.1 - - [06/May/2022 08:56:07] "[36mGET /admin/static/bootstrap/bootstrap2/swatch/default/bootstrap.min.css?v=2.3.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:56:07,558] 127.0.0.1 - - [06/May/2022 08:56:07] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker-bs2.css?v=1.3.22 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:56:07,562] 127.0.0.1 - - [06/May/2022 08:56:07] "[36mGET /admin/static/bootstrap/bootstrap2/css/bootstrap-responsive.css?v=2.3.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:56:07,563] 127.0.0.1 - - [06/May/2022 08:56:07] "[36mGET /admin/static/admin/css/bootstrap2/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:56:07,564] 127.0.0.1 - - [06/May/2022 08:56:07] "[36mGET /admin/static/vendor/jquery.min.js?v=3.3.1 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:56:07,565] 127.0.0.1 - - [06/May/2022 08:56:07] "[36mGET /admin/static/vendor/select2/select2.css?v=3.5.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:56:07,565] 127.0.0.1 - - [06/May/2022 08:56:07] "[36mGET /admin/static/vendor/moment.min.js?v=2.22.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:56:07,566] 127.0.0.1 - - [06/May/2022 08:56:07] "[36mGET /admin/static/bootstrap/bootstrap2/js/bootstrap.min.js?v=2.3.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:56:07,567] 127.0.0.1 - - [06/May/2022 08:56:07] "[36mGET /admin/static/vendor/select2/select2.min.js?v=3.5.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:56:07,568] 127.0.0.1 - - [06/May/2022 08:56:07] "[36mGET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker.js?v=1.3.22 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:56:07,568] 127.0.0.1 - - [06/May/2022 08:56:07] "[36mGET /admin/static/admin/js/form.js?v=1.0.1 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:56:07,570] 127.0.0.1 - - [06/May/2022 08:56:07] "[36mGET /admin/static/admin/js/actions.js?v=1.0.0 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:56:07,570] 127.0.0.1 - - [06/May/2022 08:56:07] "[36mGET /admin/static/admin/js/filters.js?v=1.0.0 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:56:08,728] 127.0.0.1 - - [06/May/2022 08:56:08] "GET /admin/archivo/new/?url=%2Fadmin%2Farchivo%2F HTTP/1.1" 200 -
+INFO [2022-05-06 08:56:08,755] 127.0.0.1 - - [06/May/2022 08:56:08] "[36mGET /admin/static/bootstrap/bootstrap2/swatch/default/bootstrap.min.css?v=2.3.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:56:08,759] 127.0.0.1 - - [06/May/2022 08:56:08] "[36mGET /admin/static/admin/css/bootstrap2/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:56:08,760] 127.0.0.1 - - [06/May/2022 08:56:08] "[36mGET /admin/static/bootstrap/bootstrap2/css/bootstrap-responsive.css?v=2.3.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:56:08,762] 127.0.0.1 - - [06/May/2022 08:56:08] "[36mGET /admin/static/vendor/jquery.min.js?v=3.3.1 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:56:08,762] 127.0.0.1 - - [06/May/2022 08:56:08] "[36mGET /admin/static/bootstrap/bootstrap2/js/bootstrap.min.js?v=2.3.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:56:08,766] 127.0.0.1 - - [06/May/2022 08:56:08] "[36mGET /admin/static/vendor/moment.min.js?v=2.22.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:56:08,768] 127.0.0.1 - - [06/May/2022 08:56:08] "[36mGET /admin/static/vendor/select2/select2.min.js?v=3.5.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:56:13,492] 127.0.0.1 - - [06/May/2022 08:56:13] "POST /admin/archivo/new/?url=%2Fadmin%2Farchivo%2F HTTP/1.1" 200 -
+INFO [2022-05-06 08:56:13,520] 127.0.0.1 - - [06/May/2022 08:56:13] "[36mGET /admin/static/bootstrap/bootstrap2/css/bootstrap-responsive.css?v=2.3.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:56:13,521] 127.0.0.1 - - [06/May/2022 08:56:13] "[36mGET /admin/static/bootstrap/bootstrap2/swatch/default/bootstrap.min.css?v=2.3.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:56:13,523] 127.0.0.1 - - [06/May/2022 08:56:13] "[36mGET /admin/static/admin/css/bootstrap2/admin.css?v=1.1.1 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:56:13,524] 127.0.0.1 - - [06/May/2022 08:56:13] "[36mGET /admin/static/bootstrap/bootstrap2/js/bootstrap.min.js?v=2.3.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:56:13,525] 127.0.0.1 - - [06/May/2022 08:56:13] "[36mGET /admin/static/vendor/jquery.min.js?v=3.3.1 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:56:13,526] 127.0.0.1 - - [06/May/2022 08:56:13] "[36mGET /admin/static/vendor/moment.min.js?v=2.22.2 HTTP/1.1[0m" 304 -
+INFO [2022-05-06 08:56:13,528] 127.0.0.1 - - [06/May/2022 08:56:13] "[36mGET /admin/static/vendor/select2/select2.min.js?v=3.5.2 HTTP/1.1[0m" 304 -

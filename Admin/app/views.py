@@ -10,20 +10,22 @@ from sqlalchemy import asc, desc
 from werkzeug.urls import url_parse
 from app.forms import RegistrationForm, ArchivosForm, SubcategoriaForm, PermisosForm, CategoriaForm
 from flask_admin.contrib.sqla import ModelView
-from werkzeug.utils import secure_filename
 from flask_admin.menu import MenuLink
 from flask_admin import BaseView, expose
+from flask.helpers import send_file
+import logging
 
 # Manejo de archivos
 path = os.path.join(os.path.dirname(__file__), 'static/files')
 basedir = os.path.abspath(os.path.dirname(__file__))
 padredir = os.path.abspath(os.path.join(basedir, os.pardir))
 DATA_DIR = os.path.join(os.path.dirname(padredir), 'datos')
+LOG_DIR = os.path.join(os.path.dirname(padredir), 'Admin')
 
 ########## Personalización de la vista de administrador #################
 class MyModelViewUsuarios(ModelView):
     can_export = True
-    can_edit = False
+    can_edit = True
     can_create = True
     column_searchable_list = ['nombre']
     column_exclude_list = ['password']
@@ -109,7 +111,7 @@ class ArchivosView(ModelView):
                             texto = "No existe la Categoria con abreviatura "+ catA + "."
                             flash(texto, 'error')
                         else:
-                            sub = Subcategoria.query.filter_by(abreviatura=subA).first()
+                            sub = Subcategoria.query.filter_by(categoria=cat.nombre,abreviatura=subA).first()
                             if sub is None:
                                 texto = "No existe la Subcategoria con abreviatura "+ subA + "."
                                 flash(texto, 'error')
@@ -174,7 +176,7 @@ class LogView(BaseView):
         try:
             with open('OPI.log', 'r') as f:
                 lines = f.readlines()
-                lastlines = lines[-200:]
+                lastlines = lines[-50:]
                 for line in lastlines:
                     s.append(line)
                 f.close()
@@ -183,7 +185,29 @@ class LogView(BaseView):
         except IOError as e:
             s.append("No se puede leer el log.")  
         return self.render('admin/templates/log.html', log=s)
-
+    @expose('/descarga')
+    def descarga(self):
+        app.logger.info('%s descarga el log.', current_user.nombre)
+        file_path = os.path.join(LOG_DIR, 'OPI.log')
+        return send_file(file_path)
+    @expose('/delete')
+    def delete(self):
+        s = []
+        logging.FileHandler(LOG_DIR + '/OPI.log',mode='w')
+        app.logger.info('%s ha eliminado el log.', current_user.nombre)
+        try:
+            with open('OPI.log', 'r') as f:
+                lines = f.readlines()
+                lastlines = lines[-50:]
+                for line in lastlines:
+                    s.append(line)
+                f.close()
+        except FileNotFoundError as e:
+            s.append("No hay log.")
+        except IOError as e:
+            s.append("No se puede leer el log.")  
+        return self.render('admin/templates/log.html', log=s)
+        
 admin.add_view(CategoriaView(Categoria, db.session))
 admin.add_view(SubcategoriaView(Subcategoria, db.session))
 admin.add_view(ArchivosView(Archivo, db.session))
